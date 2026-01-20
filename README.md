@@ -25,10 +25,13 @@ npm install
 ```bash
 php artisan migrate
 ```
-6. Iniciar servidores (en dos terminales):
+5. Ejecutar seeders para datos de prueba
+```bash
+php artisan db:seed
+```
+7. Iniciar servidores:
 ```bash
 php artisan serve
-npm run dev
 ```
 
 ## Uso rápido
