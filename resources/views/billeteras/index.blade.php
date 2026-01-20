@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="card p-3">
+    <div class="card py-2 px-1">
         @if($billeteras->isEmpty())
         <div class="alert alert-warning text-center">
             No hay billeteras creadas.
@@ -38,7 +38,7 @@
                                     onsubmit="return confirm('¿Eliminar billetera?')">
                                     @csrf
                                     @method('DELETE')
-                                    <button class="btn btn-smr" title="Eliminar">❌</button>
+                                    <button class="btn btn-sm" title="Eliminar">❌</button>
                                 </form>
                             </td>
                         </tr>
