@@ -25,7 +25,7 @@ npm install
 ```bash
 php artisan migrate
 ```
-5. Ejecutar seeders para datos de prueba
+6. Ejecutar seeders para datos de prueba
 ```bash
 php artisan db:seed
 ```
